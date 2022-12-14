@@ -1,0 +1,22 @@
+2022-12-09 19:44:40,052 - file - DEBUG - Debug FILE
+2022-12-09 19:51:59,612 - app - ERROR - Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/rmmcosta/Documents/Udacity/CloudNativeFoundationsCourse/nd064_course_1/exercises/python-helloworld/app.py", line 27, in metrics
+    logging_endpoint("metrics")
+  File "/home/rmmcosta/Documents/Udacity/CloudNativeFoundationsCourse/nd064_course_1/exercises/python-helloworld/app.py", line 38, in logging_endpoint
+    app.logger.info("%s, %s endpoint was reached",
+  File "/usr/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'TIMESTAMP'
+2022-12-09 19:54:39,249 - file - DEBUG - Debug FILE
+2022-12-09 19:54:44,590 - app - INFO - 2022-12-09 19:54:44.590771, metrics endpoint was reached
+2022-12-09 19:54:47,817 - app - INFO - 2022-12-09 19:54:47.817319, status endpoint was reached
+2022-12-09 19:54:51,343 - app - INFO - 2022-12-09 19:54:51.343312, hello endpoint was reached

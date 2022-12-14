@@ -1,0 +1,5 @@
+2022-12-09 16:55:13,740 - helloworld_application - INFO - {TIMESTAMP}, { ENDPOINT_NAME} endpoint was reached
+2022-12-09 16:55:21,285 - helloworld_application - INFO - {TIMESTAMP}, { ENDPOINT_NAME} endpoint was reached
+2022-12-09 16:56:50,825 - helloworld_application - INFO - 1670605010.8253486, hello endpoint was reached
+2022-12-09 16:56:55,960 - helloworld_application - INFO - 1670605015.9606576, status endpoint was reached
+2022-12-09 16:57:25,323 - helloworld_application - INFO - 1670605045.3235307, metrics endpoint was reached
