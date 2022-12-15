@@ -20,3 +20,6 @@ TypeError: Logger._log() got an unexpected keyword argument 'TIMESTAMP'
 2022-12-09 19:54:44,590 - app - INFO - 2022-12-09 19:54:44.590771, metrics endpoint was reached
 2022-12-09 19:54:47,817 - app - INFO - 2022-12-09 19:54:47.817319, status endpoint was reached
 2022-12-09 19:54:51,343 - app - INFO - 2022-12-09 19:54:51.343312, hello endpoint was reached
+2022-12-14 23:05:57,510 - file - DEBUG - Debug FILE
+2022-12-14 23:06:37,552 - file - DEBUG - Debug FILE
+2022-12-14 23:16:29,028 - file - DEBUG - Debug FILE
