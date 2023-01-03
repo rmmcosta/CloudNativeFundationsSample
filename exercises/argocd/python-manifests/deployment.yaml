@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: rmmcosta/python-hw:latest 
+      - image: rmmcosta/python-hw:2.0.2 
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
