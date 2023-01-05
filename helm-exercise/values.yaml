@@ -1,6 +1,6 @@
 ## provide the name of the namespace
 namespace:
-  name: demo
+  name: dev
 
 ## define the image to execute with the Deployment 
 image:
